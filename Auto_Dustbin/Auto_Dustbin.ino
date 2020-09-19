@@ -1,4 +1,11 @@
-
+/* Connect Echo pin of ultrasonic sensor to D6 of arduino,
+Trans pin to D5 pin ,
+Vcc is Connectd to D12 pin,
+GND to GND pin
+Servo:
+Vcc to 5V pin
+GND to GND
+logical pin to D10*/
 #include<Servo.h>
 #define trans 6
 #define recv 5
