@@ -100,7 +100,7 @@ void setup() {
   digitalWrite(light2,HIGH);
   digitalWrite(light3,HIGH);
   digitalWrite(fan,HIGH);
-  WiFi.softAP("home_server","Karantaas123@");
+  WiFi.softAP("SSID","Your_Password");
   Serial.print(WiFi.localIP());
   server.on("/",HTTP_GET,root);
   server.on("/clicked1",HTTP_GET,lighton1);
