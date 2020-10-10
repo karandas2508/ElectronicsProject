@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-`include "full_subtractor_DataFlow.v"
+`include "full_subtractor_dataFlow.v"
 
 module sub_tb;
  reg A,B,C;
