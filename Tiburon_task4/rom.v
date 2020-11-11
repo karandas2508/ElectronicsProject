@@ -4,8 +4,6 @@ input [3:0]addr;
 output [9:0]data;
 reg [9:0] mem[9:0];
 reg [9:0]data;
-integer i;
-reg l;
 initial 
 begin
     //openning file input.txt
